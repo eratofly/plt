@@ -1,0 +1,19 @@
+{
+  "name": "os2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "morph": "ts-node src/app/morph/morph.ts",
+    "minimize": "ts-node src/app/minimize/minimize.ts"
+  },
+  "dependencies": {
+    "@types/papaparse": "^5.3.15",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "private": true
+}
